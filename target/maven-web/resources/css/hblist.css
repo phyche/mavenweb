@@ -1,0 +1,485 @@
+@charset "UTF-8";
+.list {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px; }
+.list h5 {
+    font-size: 25px;
+    color: #1b1b1b;
+    margin: auto;
+    text-align: center;
+    padding: 85px 0px 20px; }
+.list .urgent {
+    text-align: right;
+    margin-bottom: 14px;
+    font-size: 14px; }
+.list .urgent span {
+    margin-right: 170px; }
+.list .ugtable table {
+    width: 100%;
+    font-size: 14px; }
+.list .ugtable tr td {
+    border: 1px solid #1b1b1b;
+    height: 54px;
+    padding: 16px; }
+.list .ugtable tr td:nth-last-child(1) {
+    border-right: 0px; }
+.list .ugtable tr td:first-child {
+    border-left: 0px; }
+.list .written {
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+    position: relative; }
+.list .written .view-edit {
+    cursor: pointer;
+    color: #1087d1;
+    float: right;
+    position: absolute;
+    top: 8px;
+    right: 5px; }
+.list .written .view-edit a {
+    color: #1087d1; }
+.list .written .view-edit i {
+    padding-right: 5px; }
+.list .written p {
+    font-size: 18px;
+    margin-top: 30px; }
+.list .written textarea {
+    height: 218px;
+    width: 100%;
+    max-width: 100%;
+    border: 0px; }
+.list .written.view span {
+    display: block;
+    height: 24px;
+    line-height: 24px; }
+.list .written.view span.chapter {
+    text-align: right;
+    margin-right: 69px; }
+.list .written.view span.chapter a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 10px; }
+.list .written.view span.chapter.first {
+    margin-top: 60px;
+    margin-right: 140px; }
+.list .written.view span.chapter.last {
+    margin-top: 15px;
+    margin-bottom: 20px; }
+.list .bottom span {
+    width: 33%;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    padding-left: 70px;
+    font-family: "仿宋";
+    font-weight: normal; }
+.list .bottom .bttn {
+    text-align: center; }
+.list .bottom .bttn a {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color: #2684ce;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 24px 10px;
+    cursor: pointer;
+    font-size: 18px; }
+.list .bottom .bttn a:nth-child(2) {
+    background-color: #949494; }
+.list .bottom .bttn a:nth-child(3) {
+    background-color: #5bbfe3; }
+.list .draw {
+    padding: 0px 68px 0px 70px; }
+.list .draw h5 {
+    font-size: 44px;
+    color: #1b1b1b;
+    margin: auto;
+    text-align: center;
+    padding: 115px 0px 15px;
+    font-family: "宋体";
+    font-weight: bold;
+    letter-spacing: 8px; }
+.list .draw .urgent {
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 4px;
+    font-family: "黑体"; }
+.list .draw .urgent span {
+    margin-right: 146px; }
+.list .draw .ugtable table {
+    width: 100%; }
+.list .draw .ugtable thead {
+    border-top: 3px solid #1b1b1b; }
+.list .draw .ugtable tr td {
+    border: 1px solid #1b1b1b;
+    height: 54px;
+    line-height: 54px;
+    padding: 3px 8px 3px 8px;
+    font-size: 28px; }
+.list .draw .ugtable tr td:nth-last-child(1) {
+    border-right: 0px; }
+.list .draw .ugtable tr td:nth-child(2) {
+    width: 176px; }
+.list .draw .ugtable tr td:nth-child(4) {
+    width: 160px; }
+.list .draw .ugtable tr td:nth-child(6) {
+    width: 295px; }
+.list .draw .ugtable tr td:first-child {
+    border-left: 0px; }
+.list .draw .ugtable tr td:nth-child(even) {
+    font-family: "仿宋";
+    padding: 3px 6px 3px 8px; }
+.list .draw .ugtable tr td:nth-child(odd) {
+    font-family: "黑体";
+    text-align: center; }
+.list .draw .ugtable tbody {
+    border-bottom: 3px solid #1b1b1b; }
+.list .draw .ugtable tbody td:first-child {
+    text-align: justify;
+    text-align-last: justify;
+    padding: 0px 12px; }
+.list .draw .written {
+    border-bottom: 1px solid #000; }
+.list .draw .written:last-child {
+    height: 380px; }
+.list .draw .written p {
+    font-size: 26px;
+    margin-top: 0px;
+    font-family: "黑体";
+    padding-left: 24px; }
+.list .draw .written p.c-one-p {
+    padding-left: 70px; }
+.list .draw .written > p:nth-child(1) {
+    font-size: 26px !important;
+    margin-top: 12px !important;
+    font-family: "黑体" !important;
+    padding-left: 26px !important;
+    text-indent: 0px !important; }
+.list .draw .written textarea {
+    height: 364px;
+    width: 100%;
+    max-width: 100%;
+    border: 0px;
+    font-family: "宋体";
+    padding-left: 32px;
+    font-size: 18px;
+    resize: none; }
+.list .draw .written.view {
+    height: 440px;
+    position: relative;
+    border-bottom: 3px solid #111; }
+.list .draw .written.view p {
+    display: block;
+    height: auto;
+    line-height: 38px;
+    letter-spacing: 1.5px;
+    font-family: "仿宋";
+    text-indent: 2em;
+    font-size: 30px;
+    padding-left: 8px; }
+.list .draw .written.view span {
+    display: block;
+    height: auto;
+    line-height: 32px;
+    letter-spacing: 2px;
+    font-family: "仿宋";
+    text-indent: 2em;
+    font-size: 30px; }
+.list .draw .written.view span.c-one-p {
+    text-indent: 2em; }
+.list .draw .written.view span.chapter {
+    text-align: right;
+    margin-right: 69px;
+    margin-bottom: 0px; }
+.list .draw .written.view span.chapter a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 10px; }
+.list .draw .written.view span.chapter a img {
+    vertical-align: initial; }
+.list .draw .written.view span.chapter.first {
+    margin-top: 60px;
+    padding-right: 160px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    letter-spacing: 0px; }
+.list .draw .written.view span.chapter.last {
+    margin-top: 15px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    padding-right: 45px;
+    letter-spacing: 0.6px; }
+.list .draw .bottom span {
+    width: 33%;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 22px;
+    font-family: "仿宋"; }
+.list .draw .bottom span:nth-child(3) {
+    padding-left: 15px; }
+.list .draw .bottom .bttn {
+    text-align: center; }
+.list .draw .bottom .bttn a {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color: #2684ce;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 24px 10px;
+    cursor: pointer;
+    font-size: 18px; }
+.list .draw .bottom .bttn a:nth-child(2) {
+    background-color: #949494; }
+.list .draw .bottom .bttn a:nth-child(3) {
+    background-color: #5bbfe3; }
+
+.shade {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 100; }
+.shade .shade-modal {
+    width: 500px;
+    background-color: #FFFFFF;
+    margin: auto; }
+.shade .shade-modal .tips-title {
+    font-size: 16px;
+    font-weight: 500;
+    height: 53px;
+    line-height: 53px;
+    padding: 0px 24px;
+    border-bottom: 1px solid #dfe4ea; }
+.shade .shade-modal .tips-title .close {
+    font-style: normal;
+    color: #cacaca;
+    float: right;
+    font-size: 18px;
+    cursor: pointer; }
+.shade .shade-modal .middle {
+    position: relative;
+    padding: 15px;
+    text-align: center; }
+.shade .shade-modal .middle .modal-tips-text {
+    font-size: 22px;
+    padding: 50px 0px; }
+.shade .shade-modal .middle em {
+    font-size: 84px;
+    margin: auto;
+    color: #feaa7c; }
+.shade .shade-modal .operation {
+    border-top: 0;
+    text-align: center;
+    padding: 20px; }
+.shade .success {
+    height: 304px;
+    width: 500px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 180px; }
+.shade .success .title {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #dfe4ea;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 34px; }
+.shade .success .title i {
+    float: right;
+    font-size: 18px;
+    cursor: pointer; }
+.shade .success .middle {
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    font-size: 27px;
+    padding-top: 30px;
+    font-weight: bold; }
+.shade .success .middle em {
+    font-size: 84px;
+    margin: auto;
+    color: #feaa7c; }
+.shade .success .operation {
+    border-top: 0;
+    text-align: center;
+    padding: 20px; }
+
+.c-bianji {
+    height: 40px;
+    border-radius: 40px !important;
+    padding: 0 70px;
+    background: #fff !important;
+    border: 1px solid #128df0;
+    color: #128df0 !important;
+    font-size: 18px; }
+
+.list4 {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px; }
+.list4 h5 {
+    font-size: 25px;
+    color: #1b1b1b;
+    margin: auto;
+    text-align: left;
+    padding: 85px 0px 20px; }
+.list4 .lbfram {
+    padding: 0 35px;
+    font-size: 14px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #e8edf1;
+    position: relative; }
+.list4 .lbfram.last {
+    border-bottom: 0px;
+    padding-bottom: 12px; }
+.list4 .lbfram .view {
+    padding-top: 28px; }
+.list4 .lbfram .view-edit {
+    cursor: pointer;
+    color: #1087d1;
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 40px; }
+.list4 .lbfram .view-edit a {
+    color: #1087d1; }
+.list4 .lbfram .view-edit i {
+    padding-right: 5px; }
+.list4 .lbfram .view-content {
+    padding: 25px;
+    border: 1px solid #e8edf1; }
+.list4 .lbfram .view-content span {
+    display: block;
+    height: 28px;
+    line-height: 28px; }
+.list4 .lbfram .view-content span.chapter {
+    text-align: right; }
+.list4 .lbfram p a {
+    display: inline-block;
+    width: 33%;
+    color: #333333;
+    text-decoration: none;
+    padding-left: 78px;
+    position: relative;
+    float: left; }
+.list4 .lbfram p a label {
+    width: 78px;
+    color: #949494;
+    position: absolute;
+    left: 0;
+    top: 0; }
+.list4 .bottom {
+    margin-top: 14px;
+    margin-left: 35px;
+    font-size: 14px; }
+.list4 .bottom a {
+    color: #6fc3e8;
+    padding: 1px 10px;
+    border-radius: 16px;
+    margin-right: 10px;
+    border: 1px solid #6fc3e8; }
+.list4 .bottom span {
+    margin-right: 10px;
+    color: #959595; }
+.list4 .bottombtn {
+    text-align: center;
+    font-size: 18px; }
+.list4 .bottombtn a {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background-color: #2684ce;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 24px 10px;
+    cursor: pointer; }
+.list4 .bottombtn a:nth-child(2) {
+    background-color: #5bbfe3; }
+
+.nav {
+    width: 100%;
+    overflow: hidden; }
+.nav a {
+    width: 12.5%;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+    float: left;
+    height: 38px; }
+.nav a img {
+    width: 100%;
+    height: 38px;
+    position: absolute; }
+.nav a span {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: block;
+    color: #606060;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 14px;
+    z-index: 1; }
+.nav a span.white {
+    color: #FFFFFF; }
+.nav a:last-child span {
+    left: 0;
+    margin-left: 8%; }
+.nav a:first-child span {
+    left: 0;
+    margin-left: 3%; }
+
+.c-top-time span {
+    position: relative; }
+.c-top-time span i {
+    position: absolute;
+    right: 15px;
+    top: 3px; }
+
+.c-tips-top {
+    height: 40px;
+    line-height: 40px;
+    background: rgba(230, 0, 18, 0.1);
+    padding: 0px 15px;
+    margin: 5px 0px;
+    font-size: 15px;
+    color: #af2f2d; }
+.c-tips-top em {
+    font-size: 20px;
+    padding-right: 5px; }
+.c-tips-top span {
+    vertical-align: top; }
+
+.confirm-modal-text {
+    font-size: 22px;
+    padding: 40px 0px;
+    text-align: center; }
+
+/*# sourceMappingURL=hblist.css.map */
